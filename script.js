@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 800;
 canvas.height = 600;
 
-let countdown = 55;
+let countdown = 10;
 let rocketY = canvas.height - 150; // Initial position of the rocket
 
 const rocketImage = new Image();
